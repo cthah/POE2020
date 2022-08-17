@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>German-Sheperd</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1><p align="center">
+        <span>German-Sheperd</span></P>
+    </h1>
+    
+    <p id="siteDescription">Browse through and click on an image to select one of our hottest dogs
+    </p>
+    
+
+    <h1><p align="center">
+        <span>German-Sheperd</span></P>
+    </h1>
+
+    <ul  style="list-style-type:none;">
+
+        <li>
+            
+            <p id="siteDescription">The German Shepherd (German: Deutscher Schäferhund, German pronunciation: [ˈdɔʏtʃɐ ˈʃɛːfɐˌhʊnt]) is a breed of medium to large-sized working dog that originated 
+                in Germany. According to the FCI, the breed's English language name is German Shepherd Dog. The breed was officially[who?] known as the "Alsatian Wolf Dog" in the UK from after the First World 
+                War until 1977 when its name was changed back to German Shepherd.[2] Despite its wolf-like appearance, the German Shepherd is a relatively modern breed of dog, with their origin dating to 1899. 
+            </p>
+
+            <h2><p align="center">
+                <span>Pictures</span></P>
+            </h2>
+            <img class="dogspic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/German-shepherd-4040871920.jpg/450px-German-shepherd-4040871920.jpg"
+               >
+            </img>
+            <img class="dogspic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Deutscher_Sch%C3%A4ferhund-_portrait.JPG/240px-Deutscher_Sch%C3%A4ferhund-_portrait.JPG"
+               >
+            </img>
+            <img class="dogspic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Strongheart-Rice-1921-cropped.jpg/170px-Strongheart-Rice-1921-cropped.jpg"
+               >
+            </img>
+        </li>
+        
+    </ul>
+    <h2><p align="center">
+        <span>Dog details</span></P>
+    </h2>
+    <table style="width:100%">
+        <tr>
+          <th>Weight</th>
+          <th>Height</th> 
+          <th>Age</th>
+          <th>Gender</th>
+          <th>Price</th>
+          
+        </tr>
+        
+        <tr>
+            <tr>
+                <td>30.3 kg</td>
+                <td>23.5 inches</td>
+                <td>14 months</td>
+                <td>Female</td>
+                <td>R3000</td>
+          
+        
+        
+      </table>
+      <p><br></p>
+      <form id="buy" action="buy.html">
+        <button type="submit">Buy now</button>
+    </form>
+
+    <ul id="nav-bar" >
+        <li><a href="index.html">Home</a></li>
+        
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+</body>
+</html>
